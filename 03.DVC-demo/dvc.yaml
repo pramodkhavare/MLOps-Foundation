@@ -3,6 +3,7 @@ stages:
     cmd: python pipeline/stage_01.py
     deps:
      - pipeline/stage_01.py
+     - artifacts/text.txt
 
   stage_2:
     cmd: python pipeline/stage_02.py
